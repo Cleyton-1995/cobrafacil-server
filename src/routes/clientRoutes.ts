@@ -1,6 +1,6 @@
 import { express } from "../server";
 
-const { createClient, getClient } = require("@prisma/client");
+const { createClient, getClient } = require("../controllers/clientControllers");
 
 const router = express.Router();
 
